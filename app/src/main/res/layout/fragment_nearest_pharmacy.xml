@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:weightSum="10">
+
+       <LinearLayout
+           android:layout_weight="2"
+           android:layout_width="0dp"
+           android:gravity="center"
+           android:layout_height="match_parent">
+
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:id="@+id/NearestPharmacyCircleImageId"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/universitario"/>
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="6">
+
+            <TextView
+            android:id="@+id/NearestPharmacyNameId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:textColor="#0C0B0B"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="Hihjk111111"
+            android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/NearestPharmacyPhoneId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/call"/>
+            <ImageView
+                android:id="@+id/NearestPharmacyEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/message"/>
+            <ImageView
+                android:id="@+id/NearestPharmacyLocationId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/location"/>
+            <ImageView
+                android:id="@+id/NearestPharmacyMedicineId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/all"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#ECE7E7"-->
+<!--        android:divider="@color/colorPrimary"-->
+<!--        android:weightSum="4">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/NearestPharmacyNameId"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:textColor="#0C0B0B"-->
+<!--            android:textSize="20dp"-->
+<!--            android:text="Hihjk111111"/>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/NearestPharmacyPhoneId"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/call"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/NearestPharmacyEmailId"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/message"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/NearestPharmacyLocationId"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/location"/>-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+
+</androidx.cardview.widget.CardView>

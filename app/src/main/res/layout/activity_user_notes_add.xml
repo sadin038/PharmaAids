@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A39E9E"
+    android:gravity="center"
+   >
+    <EditText
+        android:id="@+id/TaskId"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:hint="\t\tEnter Your Task"
+        android:inputType="text"
+        android:textSize="17sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:entries="@array/choice"
+        android:prompt="@string/option" />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:entries="@array/choice1"
+        android:prompt="@string/option1" />
+
+    <Button
+        android:id="@+id/TimeId"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Time"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        />
+
+    <Button
+        android:id="@+id/DateId"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Date"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        />
+
+
+    <Button
+        android:id="@+id/SaveButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="Save"
+        android:textSize="25sp" />
+
+</LinearLayout>

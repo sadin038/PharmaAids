@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PharmaAids</string>
+    <string name="title_activity_user_notes">UserNotes</string>
+    <string name="option">Choose a option</string>
+    <string name="option1">Choose a option</string>
+
+    <string-array name="choice">
+        <item>Everyday</item>
+        <item>1days After</item>
+        <item>2days After</item>
+        <item>3days After</item>
+        <item>Weekly</item>
+    </string-array>
+
+    <string-array name="choice1">
+        <item>One times</item>
+        <item>Two times</item>
+        <item>Three times</item>
+    </string-array>
+
+</resources>

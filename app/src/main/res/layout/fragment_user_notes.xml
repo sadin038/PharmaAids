@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#C0BCBC"
+    android:padding="2dp"
+    android:layout_margin="1dp"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/notes_items_taskId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completing Android Project"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/notes_items_how_muchId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 days After"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Times: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/notes_items_per_day_timesId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3 times"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/notes_items_dateId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3 times"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/notes_items_timeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3 times"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27501148874",
+    "firebase_url": "https://pharmaaids-24d00.firebaseio.com",
+    "project_id": "pharmaaids-24d00",
+    "storage_bucket": "pharmaaids-24d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27501148874:android:db8198c024e81ca0e15233",
+        "android_client_info": {
+          "package_name": "com.example.pharmaaids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27501148874-bho53m0d442qhsqdc3tsoh7j9lb4kmrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pharmaaids",
+            "certificate_hash": "903d6e538102ff9f65e06b6c79c1fa6abe98339a"
+          }
+        },
+        {
+          "client_id": "27501148874-a5faan2sk0r05tl6ipnuo87eil7dnbde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCibgMDHrBv25lUtpF5Ad7mzlHQhnXGiJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27501148874-a5faan2sk0r05tl6ipnuo87eil7dnbde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
